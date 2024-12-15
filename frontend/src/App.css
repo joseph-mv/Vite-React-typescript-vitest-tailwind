@@ -1,0 +1,14 @@
+.fixed-body {
+  position: fixed;
+  width: 100%;
+  overflow: hidden;
+}
+
+html {
+  font-size: 16px; /* Base font size */
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+}
